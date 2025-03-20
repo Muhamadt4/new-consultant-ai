@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Fjalla One";
+  src: url("../app/fonts/FjallaOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.fjalla-one {
+  font-family: "Fjalla One", sans-serif;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+
+/* Custom scrollbar styling */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #1e2229;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #3a3e48;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #d4a373;
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 810px) and (max-width: 1910px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1990px) {
+  html {
+    font-size: 27px;
+  }
+}
+
+@media screen and (min-width: 3839px) {
+  html {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 7670px) {
+  html {
+    font-size: 75px;
+  }
+}

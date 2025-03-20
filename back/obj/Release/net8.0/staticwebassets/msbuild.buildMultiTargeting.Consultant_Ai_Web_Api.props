@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Consultant_Ai_Web_Api.props" />
+</Project>
